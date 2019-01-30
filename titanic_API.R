@@ -16,7 +16,7 @@ function(){
       </br>
       <p>This model predicts the Survival probability of the passengers on Titanic given the 
         Age (in years), Sex (male/female) and Pclass (ticket class).</p>
-      <p>It also outputs the model accuracy.</p>
+      <p>It also outputs the model accuracy and plots a Confusion Matrix.</p>
       </br></br>
       <p>Provide the the following inputs :</p>
       <p>Sex = male/female</p>
@@ -99,11 +99,9 @@ predict_survival <- function(Sex = NULL, Pclass = NULL, Age = NA) {
 #' @png
 function()
 {
-  library(caret)
-  cm <- confusionMatrix(test_predict_titanic, test_set$Survived)
   lvs <- c("Survived", "Not Survived")
-  truth <- factor(rep(lvs, times = c(109,159)), levels = rev(lvs))
-  pred <- factor(c(rep(lvs, times = c(52, 57)), rep(lvs, times = c(9, 150))), levels = rev(lvs))
+  truth <- factor(rep(lvs, times = c(102,166)), levels = rev(lvs))
+  pred <- factor(c(rep(lvs, times = c(66, 36)), rep(lvs, times = c(14, 152))), levels = rev(lvs))
   xtab <- table(pred, truth)
   cm <- confusionMatrix(pred, truth)
   cm$table
