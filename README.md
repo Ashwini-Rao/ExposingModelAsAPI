@@ -20,7 +20,7 @@ For a detailed walk-through of this project, read up **[ExposingModelAsAPI](http
  
 # Closing Remarks
 Here are a few other packages in R that help in exposing R models through API development:
- -  **[DeployR](https://docs.microsoft.com/en-us/machine-learning-server/deployr/deployr-about)** - It is Microsoft's integration platform for R analytics inside web, mobile, desktop, dashboard as well as backend applications
- -  **[OpenCPU](https://www.opencpu.org/)** - Provides reliable and interoperable HTTP APIs for data analysis based on R. One of the likely one to choose for production
- -  **[Shiny](http://shiny.rstudio.com/)** - It is an R package that helps build interactive web applications from R
- - **[rApache](https://www.r-bloggers.com/exposing-r-script-as-api/)** - It is a project supporting web application development using the R
+-  **[DeployR](https://docs.microsoft.com/en-us/machine-learning-server/deployr/deployr-about)** - It is Microsoft's integration platform for R analytics inside web, mobile, desktop, dashboard as well as backend applications
+-  **[OpenCPU](https://www.opencpu.org/)** - Provides reliable and interoperable HTTP APIs for data analysis based on R. One of the likely one to choose for production
+-  **[Shiny](http://shiny.rstudio.com/)** - It is an R package that helps build interactive web applications from R
+- **[rApache](https://www.r-bloggers.com/exposing-r-script-as-api/)** - It is a project supporting web application development using the R
