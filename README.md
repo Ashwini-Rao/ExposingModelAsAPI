@@ -7,7 +7,7 @@ We can do this using an R package - **"Plumber"**. Plumber is straightforward an
 
 # R Packages and Client Softwares
  - randomForest: R package used for taining the titanic problem using random forest algorithm. Check the **[random forest R Documentation](https://www.rdocumentation.org/packages/randomForest/versions/4.6-14/topics/randomForest)** for more details
- - caret: R package used for plotting Confusion Matrix to evaluate model performance. Check the **[caret R Documentation](https://www.rdocumentation.org/packages/caret)** for more details.
+ - caret: R package used for plotting Confusion Matrix to evaluate model performance. Check the **[caret R Documentation](https://www.rdocumentation.org/packages/caret)** for more details
  - plumber: R package to create REST APIs. Check the **[rplumber Documentation](https://www.rplumber.io/)** for more details
  - Postman: API Development Tool used for REST API validation. Check the **[Postman](https://www.getpostman.com/)** website for more details
  - curl: Command line tool used for REST API validation. Check the **[curl](https://curl.haxx.se/)** website for more details
@@ -20,11 +20,7 @@ We can do this using an R package - **"Plumber"**. Plumber is straightforward an
  
  # Closing Remarks
 > Here are a few other packages in R that help in exposing R models through API development:
-
-> **1. [DeployR](https://docs.microsoft.com/en-us/machine-learning-server/deployr/deployr-about)** - It is Microsoft's integration platform for R analytics inside web, mobile, desktop, dashboard as well as backend applications.
-
-> **2. [OpenCPU](https://www.opencpu.org/)** - Provides reliable and interoperable HTTP APIs for data analysis based on R. One of the likely one to choose for production.
-
-> **3. [Shiny](http://shiny.rstudio.com/)** - It is an R package that helps build interactive web applications from R.
-
-> **4. [rApache](https://www.r-bloggers.com/exposing-r-script-as-api/)** - It is a project supporting web application development using the R.
+ -  **[DeployR](https://docs.microsoft.com/en-us/machine-learning-server/deployr/deployr-about)** - It is Microsoft's integration platform for R analytics inside web, mobile, desktop, dashboard as well as backend applications
+ -  **[OpenCPU](https://www.opencpu.org/)** - Provides reliable and interoperable HTTP APIs for data analysis based on R. One of the likely one to choose for production
+ -  **[Shiny](http://shiny.rstudio.com/)** - It is an R package that helps build interactive web applications from R
+ - **[rApache](https://www.r-bloggers.com/exposing-r-script-as-api/)** - It is a project supporting web application development using the R
